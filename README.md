@@ -1,44 +1,62 @@
-# Grade calculator
-This simple JavaScript program calculates the grade of a student based on the marks entered by the user.
+# Code_Challenge_1
 
-# How to Use
-1. **Input Marks**:
-- The user is prompted to enter the student's marks, which should be between 0 and 100.
+#### Date, 2024/03/24
 
-2. **Calculate the grade**:
-- The program calculates the grade based on the following criteria:
-     - A: Marks greater than 79
-     - B: Marks between 60 and 79 (inclusive)
-     - C: Marks between 50 and 59 (inclusive)
-     - D: Marks between 40 and 49 (inclusive)
-     - E: Marks less than 40
+### By Ernest Fonseca Musau 
 
-3. **Display Grade**:
-- The calculated grade is displaye in the console.
+# Description
+Three distinct challenges are included in the series, all geared toward assessing the material presented this week. These are the challenges:
+## Challenge 1:
+### Qn
+Write a program that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
 
-4. **Error Handling**:
-- - If the input marks are not a valid number or fall outside the range of 0 to 100, an error message is displayed.
+A > 79, B - 60 to 79, C -  49 to 59, D - 40 to 49, E - less 40.
 
-## Usage
+### Soln
+Two prompt routines are used by this program: one asks the user to enter the student's name, and the other requests the student's mark. The computer checks to see if the markers input ranges from 0 to 100 before starting the grading process; if it does, the procedure moves forward. Should the user enter a mark that is invalid, an output indicating such will be displayed. At last, it prints the student's name, mark, and grade after computing their grade using the grading scheme specified in the question.
+Simply invoke the main function to begin using the software. The user will be prompted to enter the student's name and grades, and the grade, marks, and student name will be output to the console.
 
-To use this program:
+## Challenge 2:
+### Qn
+Write a program that takes as input the speed of a car e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
 
-1. Open the JavaScript file containing the code.
-2. Run the file using a JavaScript runtime environment (e.g., Node.js) or in a web browser console.
-3. Follow the prompts to input the student's marks.
-4. View the calculated grade displayed in the console.
+### Soln
+'Speed' is the only argument that this program's function takes. Conditions are used to test the various car speeds. There is a 70 km/h speed restriction. "Ok" is printed when the speed is less than or equal to the speed limit. The application will figure out how many demerit points are earned for every 5 km/s over the speed limit and print that figure after the speed restriction is exceeded. The application writes "License cancelled" if the demerit points surpass 12, which is equivalent to a speed of at least 135 km/s.
+Simply use the calculateDemeritPoints method to begin using the application. This function computes demerit points and exceeding speed and outputs the number of points based on speed, excess speed, and penalty based on point total to the console.
 
-## Example
-If the user inputs marks as 85, the program will output: Grade "A"
+## Challenge 3:
+### Qn
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIFDeductions, NSSFDeductions, gross salary, and net salary. 
+NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
-If the user inputs marks as 65, the program will output: Grade "B"
+https://www.aren.co.ke/payroll/taxrates.htmLinks to an external site.  
 
-If the user inputs marks as  55, the program will output: Grade "C"
+https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/payeLinks to an external site.
 
-If the user inputs marks as 45, the program will output: Grade "D"
+### Soln
+Using an individual's base pay and benefits—basically, allowances—this tool determines their net compensation. The program's primary function is to calculate gross tax, NHIF and NSSF deductions, gross salary, and net salary. These functions are divided into multiple parts. The program's initial constants are taken from the URLs provided in the question. To traverse through the arrays and obtain the right values required for calculation, loops are employed. 
+Call the calculateNetSalary function to begin using the application. It will ask the user to enter their base pay and benefits before displaying the net salary on the console.
 
-If the user inputs marks as 35, the program will output: Grade "E"
 
-## Author
+## Installation:
+- Create a repository in your own Github account
+- Git clone to be able to download the documents in the github
 
-This program was written by [Ernest Musau].
+## Expected:
+- Javascript used to write the code for this challenge
+- Solution to be pushed to the created repository once complete
+- The repository link to be submitted for grading
+- All the three challenges to be completed
+- A README.md file should be present
+
+# Live link
+https://github.com/ernestmusau/Code-Challenge-1
+
+## Contact Details
+https://github.com/ernestmusau
+
+### License
+The content of this site is licensed under the MIT license
+Copyright (c) 2024.
+
+
