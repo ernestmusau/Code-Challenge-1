@@ -1,4 +1,4 @@
-# Code_Challenge_1
+# Code-Challenge-1
 
 #### Date, 2024/03/24
 
